@@ -11,7 +11,6 @@
 import Page from "./Page";
 
 export default {
-  name: "Pages",
   components: {
     Page
   },
