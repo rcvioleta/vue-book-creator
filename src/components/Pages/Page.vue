@@ -11,7 +11,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .text-editor__wrapper {
   overflow-y: hidden;
   overflow-x: hidden;
