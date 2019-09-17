@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <Pages />
+    <TextEditor />
   </div>
 </template>
 
 <script>
-import Pages from "./components/Pages/Pages";
+import Pages from "./components/Pages/BookCreator";
+import TextEditor from "./components/Pages/TextEditor";
 
 export default {
   name: "app",
   components: {
-    Pages
+    Pages,
+    TextEditor
   }
 };
 </script>
